@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <ImageView android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_myantar"
+               android:layout_gravity="center_vertical"
+        />
+      <ImageView android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_bantuanpemakaian"
+               android:layout_gravity="center_vertical"
+        />
+     
+     <TextView
+        android:id="@+id/textView060"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="GOOD-JEK adalah sebuah layanan pesan antar yang menggunakan teknologi online yang bertujuan untuk mempermudahkan pelanggan melakukan komunikasi dengan penyedia layanan GOOD-JEK. GOOD-JEK menyediakan berbagai macam layanan, termasuk transportasi dan pesan antar makanan."
+		android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+    <TextView
+       android:id="@+id/textView061"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="5dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="GOOD-JEK beroperasi di daerah Kota Pangkalpinang dan akan dikembangkan di daerah-daerah Babel lainnya seperti Sungailiat dan Belitung."
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+    <TextView
+       android:id="@+id/textView062"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="1.	Aplikasi ini merupakan aplikasi perangkat lunak yang berfungsi sebagai sarana untuk menemukan layanan dengan menggunakan sepeda motor yang disediakan oleh pihak ketiga (pengemudi ojek) ('Penyedia-penyedia Layanan'). Aplikasi ini menawarkan informasi tentang layanan yang ditawarkan oleh Penyedia Layanan. Jenis layanan yang dapat diminta melalui Aplikasi adalah:"
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+    <TextView
+       android:id="@+id/textView063"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="15dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="1.	Kurir Instan;"
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+    <TextView
+       android:id="@+id/textView064"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="15dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="2.	Pengiriman Makanan;"
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+    <TextView
+       android:id="@+id/textView065"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="15dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="3.	Pembelanjaan Pribadi; dan"
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+    <TextView
+       android:id="@+id/textView066"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="15dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="4.	Layanan lain yang dapat kami tambahkan dari waktu ke waktu ('Layanan')."
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+    <TextView
+       android:id="@+id/textView067"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="2.	Aplikasi ini memungkinkan Anda untuk mengirimkan permintaan untuk suatu Layanan kepada Penyedia Layanan. Penyedia Layanan memiliki kebijakan sendiri dan menyeluruh untuk menerima atau menolak setiap permintaan Anda atas Layanan."
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+    <TextView
+       android:id="@+id/textView068"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="3.	Kami akan melakukan semua upaya wajar untuk menghubungkan Anda dengan Penyedia Layanan untuk mendapatkan Layanan, tergantung kepada keberadaan Penyedia Layanan di atau di sekitar lokasi Anda pada saat Anda melakukan pemesanan Layanan."
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+    <TextView
+       android:id="@+id/textView069"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="5dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="Cara menggunakan layanan aplikasi GOOD-JEK"
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+    <TextView
+       android:id="@+id/textView070"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="1.	Membuka aplikasi"
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+    <TextView
+       android:id="@+id/textView071"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="2.	Pilih salah satu tab menu pada gambar di bawah : Good-Food, Good-Mart, dan Good-Ride untuk melakukan pemesanan (untuk Good-Food dan Good-Mart maksimal 5 pemesanan untuk tiap-tiap item)."
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+     <ImageView android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_goodfood"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center_vertical"
+        />
+     
+        <ImageView android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_goodmarket"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center_vertical"
+        />
+        
+        <ImageView android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_goodride"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center_vertical"
+        />
+     
+    
+    <TextView
+       android:id="@+id/textView072"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:inputType="textMultiLine"
+       android:text="3.	Isi data yang diinginkan pada aplikasi."
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+    <TextView
+       android:id="@+id/textView073"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="20dp"
+       android:inputType="textMultiLine"
+       android:text="4.	Tekan proses, maka pesanan anda akan diproses."
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+        
+    </TextView>
+        <TextView
+       android:id="@+id/textView074"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="20dp"
+       android:inputType="textMultiLine"
+       android:text="5.	Lihat riwayat pemesanan anda dengan memilih tab riwayat, seperti gambar di bawah."
+	   android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    <ImageView android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_ongkoskirim"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center_vertical"
+        />
+     
+    
+    
+</LinearLayout>
+</ScrollView>

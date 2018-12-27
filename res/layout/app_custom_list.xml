@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+         >
+       
+       <ImageView android:layout_width="128dp"
+           	android:id="@+id/gambardriver"
+            android:layout_height="128dp"
+        	android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_myantar"
+            android:contentDescription="@string/logo"
+          
+        />
+     
+     
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+      <TextView 
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application Title"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+      
+  
+
+        
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+      
+     <TextView
+         android:id="@+id/textViewbn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="BN" />
+
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+      
+     <TextView
+         android:id="@+id/textViewhp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="HP" />
+
+        
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+      
+     <TextView
+         android:id="@+id/textViewTanggal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#F01111"
+         android:text="Date" />
+
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+         >
+     
+          
+  
+       <TextView
+         android:id="@+id/dlTxt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Content" />
+     
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+         >
+     
+          
+  
+       <TextView
+         android:id="@+id/dlInvoice"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Content" />
+     
+    </LinearLayout>
+    
+    
+          <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/buttonbatalpesanan"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape"
+		android:shadowColor="#ff00ffff"
+		android:padding="10dp"
+        android:text="Batalkan Pesanan Ini" />
+    
+    
+    
+</LinearLayout>
+

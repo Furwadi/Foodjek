@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+         >
+       
+       <ImageView android:layout_width="128dp"
+           	android:id="@+id/gambardriver2"
+            android:layout_height="128dp"
+        	android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_myantar"
+            android:contentDescription="@string/logo"
+          
+        />
+     
+     
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+      <TextView 
+        android:id="@+id/titleTxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application Title"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+      
+  
+
+        
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+      
+     <TextView
+         android:id="@+id/textViewbn2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="BN" />
+
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+      
+     <TextView
+         android:id="@+id/textViewhp2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="HP" />
+
+        
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+      
+     <TextView
+         android:id="@+id/textViewTanggal2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#F01111"
+         android:text="Date" />
+
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+         >
+     
+          
+  
+       <TextView
+         android:id="@+id/dlTxt2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Content" />
+     
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+         >
+     
+          
+  
+       <TextView
+         android:id="@+id/dlInvoice2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Content" />
+     
+    </LinearLayout>
+    
+
+    
+    
+</LinearLayout>
+

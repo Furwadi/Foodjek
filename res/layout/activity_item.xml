@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        >    
+        <LinearLayout
+        android:id="@+id/tabelkategori"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:padding="10dp"
+        android:orientation="vertical" >
+        
+        <TextView 
+        android:id="@+id/titlekategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Kategori"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="14dp" /> 
+        
+        </LinearLayout>
+        
+    	<TableLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:stretchColumns="*"
+    	>
+        
+    <TableRow 
+        android:layout_weight="1"
+        android:gravity="center">
+           <ImageView
+        android:id="@+id/imageMakanan"
+        android:layout_gravity="center"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_makanan" />
+        <ImageView
+        android:id="@+id/imageMinuman"
+        android:layout_gravity="center"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_minuman" />
+        <ImageView
+        android:id="@+id/imageMakananMinuman"
+        android:layout_gravity="center"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_makananminuman" />
+       
+    </TableRow>
+    </TableLayout>
+            <ProgressBar
+        android:id="@+id/progressBarProcess"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+            
+        <LinearLayout
+        android:id="@+id/tabelmenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:padding="10dp"
+       	android:visibility="gone"
+        android:orientation="vertical" >
+        
+       <TextView 
+        android:id="@+id/titlewarung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application Title"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="14dp" />
+
+    	</LinearLayout>      
+       
+         <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+     
+     
+    </LinearLayout>
+
+ 
+
+</LinearLayout>
+

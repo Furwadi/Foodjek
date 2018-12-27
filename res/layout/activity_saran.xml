@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+   
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical" >
+        
+            <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="30"
+               android:src="@drawable/ic_myantar"
+        />
+        
+	 <EditText
+		android:id="@+id/editsaran"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/rounded_edittext"
+    	android:padding="10dp"
+    	android:singleLine="false"
+    	android:lines="5"
+    	android:gravity="top"
+    	android:layout_marginLeft="10dip"
+    	android:hint="Kritik dan Saran Anda"
+   		 android:layout_marginRight="10dip" />
+	      
+           
+      <Button
+        android:id="@+id/btnsaran"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="40"
+        android:background="@drawable/buttonshape"
+        android:layout_marginBottom="5dp"
+        android:text="Kirim" />
+      
+       <View android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="40"/>
+        <View android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="40"/>
+           <View android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="40"/>
+       
+    </LinearLayout>
+    
+         
+
+ 
+</LinearLayout>

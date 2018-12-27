@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout
+    android:padding="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:padding="10dp"
+        android:orientation="horizontal" >
+
+   		 
+   		 <TextView
+         android:id="@+id/jaraktempuhPeta"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Jarak : "
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+   		 
+   		 <TextView
+         android:id="@+id/hasiltempuhPeta"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+   		 
+   		 <TextView
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=" Km"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+   		 
+   		 <TextView
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Biaya : "
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+   		 <TextView
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Rp. "
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+           		 
+   		 <TextView
+         android:id="@+id/biayaPeta"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+   		 
+
+    </LinearLayout>
+    
+         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+         >
+       
+       <ImageView android:layout_width="match_parent"
+           	android:id="@+id/gambarmenu"
+               android:layout_height="120dp"
+               android:src="@drawable/ic_myantar"
+               android:layout_gravity="center_horizontal"
+               android:contentDescription="@string/logo"
+          
+        />
+       
+     
+     
+    </LinearLayout>
+    
+           <LinearLayout
+       	android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+      <TextView 
+        android:id="@+id/titleToko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toko"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+      
+  
+
+     
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00FFFF"
+        android:padding="10dp"
+        android:orientation="horizontal" >
+
+   		 
+       <TextView
+         android:id="@+id/textnamapesanan"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Nama Menu" />
+      
+    
+        
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+ 
+    	 <TextView
+         android:id="@+id/textHarga"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Harga" />
+        
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+ 
+    	 <EditText
+         android:id="@+id/textPeta"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:editable="false"
+         android:hint="Lokasi Tujuan" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+     <Spinner
+            android:id="@+id/spinnerPesanan"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:entries="@array/spin1" />
+        
+       <Button
+			android:id="@+id/buttonKeranjang"
+			android:text="Pesan Menu Ini"
+			android:textSize="14sp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:background="@drawable/buttonshape"
+			android:shadowColor="#ff00ffff"
+			android:gravity="center"
+		/>
+        
+    </LinearLayout>
+    
+
+    
+    
+</LinearLayout>
+
+</ScrollView>

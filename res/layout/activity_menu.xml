@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*"
+    >
+    <TableRow 
+        android:layout_weight="1"
+        android:gravity="center">
+           <ImageView
+        android:id="@+id/imageFood"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_food" />
+        <ImageView
+        android:id="@+id/imageRide"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_ride" />
+       
+    </TableRow>
+    <TableRow 
+        android:layout_weight="1"
+        android:gravity="center">
+                 <ImageView
+        android:id="@+id/imageMart"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_pick" />
+        <ImageView
+        android:id="@+id/imageAbout"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_how" />
+
+    </TableRow>
+</TableLayout>
+</LinearLayout>

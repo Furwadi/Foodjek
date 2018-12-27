@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+   
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical" >
+        
+            <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="30"
+               android:src="@drawable/ic_myantar"
+        />
+        
+
+     <EditText
+             android:id="@+id/txtusername"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginRight="20dp"
+             android:layout_marginLeft="20dp"
+             android:ems="10"
+             android:layout_weight="40"
+             android:drawableLeft="@drawable/ic_email32"
+             android:drawablePadding="5dp"
+             android:hint="Email" />
+     <EditText
+             android:id="@+id/txtpassword"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginRight="20dp"
+             android:layout_marginLeft="20dp"
+             android:ems="10"
+             android:layout_weight="40"
+             android:drawableLeft="@drawable/ic_key32"
+             android:drawablePadding="5dp"
+             android:inputType="textPassword"
+             android:hint="Password" />
+    
+      <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="40"
+        android:background="@drawable/buttonshape"
+        android:text="Masuk" />
+      
+      <TextView
+             android:id="@+id/txtsetpass"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="40"
+             android:gravity="center"
+             android:textColor="#33fff9"
+             android:text="Lupa Password?" />
+      
+     <View android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="40"
+    />
+      
+      <TextView
+             android:id="@+id/txtset3"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginRight="50dp"
+             android:layout_marginLeft="50dp"
+             android:layout_weight="40"
+             android:text="Belum Punya Akun" />
+      
+      <Button
+        android:id="@+id/btndaftarto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_weight="40"
+        android:background="@drawable/buttonshape"
+        android:layout_marginBottom="5dp"
+        android:text="Daftar" />
+       
+    </LinearLayout>
+    
+         
+
+ 
+</LinearLayout>

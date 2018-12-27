@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">"
+
+   
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+ 
+       
+         <RelativeLayout
+    android:layout_width="match_parent"
+        android:layout_weight="30"
+    android:layout_height="match_parent" >
+
+       <fragment
+        
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.MapFragment"
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+       
+       <ImageView
+    		android:layout_width="32dp"
+    		android:layout_height="32dp"
+    		android:layout_centerInParent="true"
+    		android:scaleType="fitXY"
+    		android:src="@drawable/ic_iconrumah" />
+
+</RelativeLayout>
+    
+    <EditText
+              android:id="@+id/txtset2"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginRight="50dp"
+              android:ems="10"
+              android:layout_weight="70"
+              android:editable="false"
+              android:hint="Nama Lokasi" />
+     <TextView
+             android:id="@+id/txtset4"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="Lat2"
+             android:visibility="gone"
+             android:layout_weight="70"
+             />
+    <TextView
+             android:id="@+id/txtset5"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="Long2"
+             android:visibility="gone"
+             android:layout_weight="70"
+             />
+     <Button
+        android:id="@+id/btnset2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+       	android:layout_weight="70"
+       	android:background="@drawable/buttonshape"
+        android:text="Set Lokasi" />
+     
+           
+    </LinearLayout>
+    
+   
+ 
+</LinearLayout>

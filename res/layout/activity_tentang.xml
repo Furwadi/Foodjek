@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+     <ImageView android:layout_width="fill_parent"
+               android:layout_height="100dp"
+               android:src="@drawable/ic_myantar"
+               android:layout_gravity="center_vertical"
+        />
+    <ImageView android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_apaitu"
+               android:layout_gravity="center_vertical"
+        />
+
+    
+     <TextView
+        android:id="@+id/textView60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:text="GOOD-JEK adalah sebuah ojek yang menggunakan teknologi online berjiwa sosial yang bertujuan untuk meningkatkan kesejahteraan pekerja di berbagai sektor informal di Bangka Belitung. Kami bermitra dengan mahasiswa maupun anak muda yang sedang nganggur sebagai pengendara ojek yang berpengalaman dan terpercaya Pangkalpinang, untuk menyediakan berbagai macam layanan, termasuk transportasi dan pesan antar makanan. Kegiatan GOOD-JEK bertumpu pada nilai pokok: kecepatan dan dampak sosial. GOOD-JEK telah beroperasi di daerah Kota Pangkalpinang dan akan dikembangkan di daerah-daerah Babel	lainnya seperti Sungailiat dan Belitung."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+    <ImageView android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_kebijakan"
+               android:layout_gravity="center_vertical"
+        />
+		
+	 <TextView
+       android:id="@+id/textView61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="Kebijakan Privasi berikut ini menjelaskan bagaimana kami mengumpulkan, menggunakan, memindahkan, mengungkapkan dan melindungi informasi pribadi anda yang dapat diidentifikasi yang diperoleh melalui. Aplikasi kami (sebagaimana didefinisikan di bawah). Mohon anda membaca Kebijakan Privasi ini dengan seksama untuk memastikan bahwa anda memahami bagaimana ketentuan Kebijakan Privasi ini kami berlakukan. Kebijakan Privasi ini disertakan sebagai bagian dari Ketentuan Penggunaan kami. Kebijakan Privasi ini mencakup hal-hal sebagai berikut:"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	 
+	<TextView
+        android:id="@+id/textView62"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textMultiLine"
+        android:text="1.	Definisi"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textMultiLine"
+        android:text="2.	Informasi yang kami kumpulkan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView64"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textMultiLine"
+        android:text="3.	Penggunaan informasi yang kami kumpulkan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textMultiLine"
+        android:text="4.	Pemberian informasi yang kami kumpulkan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textMultiLine"
+        android:text="5.	Penahanan informasi yang kami kumpulkan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView57"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textMultiLine"
+        android:text="6.	Keamanan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+         android:id="@+id/textView68"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textMultiLine"
+        android:text="7.	Perubahan atas Kebijakan Privasi ini"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView69"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textMultiLine"
+        android:text="8.	Lain-lain"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView70"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textMultiLine"
+        android:text="9.	Pengakuan dan persetujuan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView71"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textMultiLine"
+        android:text="10.	Berhenti menerima e-mail"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView72"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textMultiLine"
+        android:text="11.	Cara untuk menghubungi kami"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView73"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="16dp"
+        android:inputType="textMultiLine"
+        android:text="Penggunaan anda atas aplikasi dan layanan kami tunduk pada Ketentuan Penggunaan dan Kebijakan Privasi ini dan mengindikasikan persetujuan anda terhadap Ketentuan Penggunaan dan Kebijakan Privasi tersebut."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView74"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:inputType="textMultiLine"
+        android:text="1.	Definisi"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    	
+	<TextView
+        android:id="@+id/textView75"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="1.	“Kami” berarti GOOD-JEK Bangka Belitung, suatu aplikasi yang didirikan berdasarkan hukum Negara Republik Indonesia."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView76"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="2.	“Aplikasi” berarti suatu aplikasi piranti lunak yang telah kami kembangkan yang merupakan suatu sarana untuk menemukan Layanan yang disediakan oleh pihak ketiga."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView77"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="3.	“Penyedia Layanan” berarti suatu pihak ketiga pengendara sepeda motor (pengemudi ojek) yang menyediakan Layanan melalui Aplikasi."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView78"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="4.	“Layanan” berarti layanan transportasi dengan menggunakan sepeda motor yang ditawarkan oleh Penyedia Layanan melalui Aplikasi yang dapat mencakup (i) layanan kurir instan, (ii) transportasi, (iii) pengiriman makanan dan (iv) pembelanjaan pribadi."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView79"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="5.	“Informasi Pribadi” berarti informasi mengenai anda yang secara pribadi dapat diidentifikasi yang dikumpulkan melalui Aplikasi, seperti nama, alamat, tanggal lahir, pekerjaan, nomor telepon, alamat surat elektronik (e-mail) anda dan/atau sejenisnya, dan informasi lain yang mungkin dapat mengidentifikasi orang tertentu yang sedang menggunakan Aplikasi."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView80"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="6.	“Situs web” berarti situs web kami di --------- (good_jek@yahoo.com)"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+    
+	<TextView
+        android:id="@+id/textView81"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="2.	Informasi yang Kami Kumpulkan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	
+
+	
+	<TextView
+        android:id="@+id/textView82"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="1.	Kami mengumpulkan Informasi Pribadi tertentu dari anda agar Aplikasi dapat menemukan Layanan dari Penyedia Layanan. Anda akan langsung memberikan Informasi Pribadi (sebagai contoh, saat anda mendaftar) dan beberapa informasi akan secara otomatis dikumpulkan ketika anda menggunakan Aplikasi."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView83"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="2.	Ketika anda mengunjungi Situs web kami, administrator situs web kami akan memproses data teknis seperti alamat IP anda, halaman web yang pernah anda kunjungi, browser internet yang anda gunakan, halaman web yang sebelumnya /selanjutnya anda kunjungi dan durasi setiap kunjungan/sesi yang memungkinkan kami untuk mengirimkan fungsi-fungsi Situs web. Sebagai tambahan, dalam beberapa hal, browser dapat menyarankan anda agar geo-location anda memungkinkan kami untuk memberikan anda suatu pengalaman yang lebih baik. Dengan data teknis ini administrator-administrator Situs web kami dapat mengelola Situs web, misalnya dengan menyelesaikan kesulitan-kesulitan teknis atau memperbaiki kemampuan untuk dapat diaksesnya bagian-baigan tertentu dari Situs web. Dengan cara ini, kami dapat memastikan bahwa Anda dapat (terus) menemukan informasi pada Situs web dengan cara yang cepat dan sederhana."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+    
+	<TextView
+        android:id="@+id/textView84"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="3.	Informasi yang Anda berikan secara langsung."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+        
+	<TextView
+        android:id="@+id/textView85"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="1.	Pada saat mendaftar pada Aplikasi, anda akan memberikan kepada kami alamat surat elektronik / surel (email), nama, nomor telepon."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView86"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="2.	Ketika anda menggunakan Aplikasi untuk menemukan suatu layanan, anda memberikan informasi pada kami, yaitu lokasi dan tujuan anda. Anda juga memberikan informasi kepada kami mengenai barang yang anda kirim/antar dan/atau beli dan biaya pembelanjaan anda ketika anda menggunakan layanan kurir instan atau pembelanjaan pribadi. Ketika anda menggunakan Aplikasi kami, kami juga akan memproses data teknis anda seperti alamat IP, Identitas (ID) Perangkat atau alamat MAC, dan informasi mengenai pabrikan, model, dan sistem operasi dari perangkat bergerak/mobile device anda. Kami menggunakan data ini untuk memungkinkan kami untuk mengirimkan fungsi-fungsi dari Aplikasi, menyelesaikan kesulitan-kesulitan teknis, menyediakan bagi anda versi Aplikasi yang benar dan terkini dan untuk meningkatkan fungsi Aplikasi."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView87"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="3.	Kami akan meminta nomor telepon seseorang yang dapat dihubungi oleh Penyedia Layanan untuk melengkapi pesanan anda ketika anda menggunakan Aplikasi untuk menemukan suatu layanan kurir instan. Anda harus mendapatkan persetujuan terlebih dahulu dari orang yang nomor teleponnya anda berikan pada kami untuk memberikan nomor teleponnya pada kami dan untuk kami memberikan nomor telepon tersebut kepada Penyedia Layanan."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView88"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="4.	Anda dapat memberikan kode rujukan (referral code) kepada teman anda melalui Aplikasi, dimana, kami hanya akan menyiapkan suatu pesan untuk anda kirimkan atau anda terbitkan melalui penyedia media sosial atau surel anda. Anda dapat mengubah pesan yang telah kami siapkan sebelum anda mengirimkannya. Kami tidak akan mengumpulkan data teman anda."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView89"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="4.	Penggunaan Informasi yang Kami Kumpulkan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+        
+	<TextView
+        android:id="@+id/textView90"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="1.	Kami menggunakan surel, nama, nomor telepon anda untuk memverifikasi kepemilikan anda atas suatu akun, untuk berkomunikasi dengan anda sehubungan dengan pesanan anda dan untuk memberikan anda informasi mengenai Aplikasi. Kami juga dapat menggunakan nama, surel, dan nomor telepon anda untuk mengirimkan pesan, pembaharuan yang bersifat umum atas Aplikasi, penawaran-penawaran khusus atau promosi-promosi. Anda dapat setiap saat memilih untuk tidak menerima informasi mengenai pembahrauan ini."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView91"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="2.	Kami menggunakan informasi seperti barang-barang yang anda kirimkan/diantarkan dan/atau beli dan biaya pembelanjaan anda untuk menentukan apakah Aplikasi dapat menerima pesanan anda berdasarkan Ketentuan Penggunaan."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView92"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="3.	Kami menggunakan Informasi Pribadi dalam bentuk tanpa nama dan secara keseluruhan untuk memantau lebih dekat fitur-fitur mana dari Layanan yang paling sering digunakan, untuk menganalisa pola penggunaan dan untuk menentukan apakah kami akan menawarkan atau fokus pada Layanan kami. Anda dengan ini setuju bahwa data anda akan digunakan oleh pemrosesan data internal kami untuk memberikan Layanan yang lebih baik kepada anda."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	
+	<TextView
+        android:id="@+id/textView93"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="5.	Pemberian Informasi yang Kami Kumpulkan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    	
+	<TextView
+        android:id="@+id/textView94"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="1.	Setelah menerima pesanan anda, kami akan memberikan informasi seperti nama, nomor telepon, lokasi, tujuan, geo-location, barang yang akan dikirimkan/diantar atau dibeli dan/atau biaya pembelanjaan anda kepada Penyedia Layanan yang menerima permintaan anda atas Layanan. Informasi ini dibutuhkan oleh Penyedia Layanan untuk menghubungi anda, dan/atau menemukan anda dan/atau memenuhi pesanan anda."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView95"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="2.	Kami juga akan memberikan nomor telepon dari pihak yang dapat dihubungi yang telah anda berikan kepada kami kepada Penyedia Layanan ketika anda menggunakan Aplikasi untuk menemukan layanan kurir instan."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView96"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="3.	Anda dengan ini setuju dan memberikan wewenang pada kami untuk memberikan Informasi Pribadi anda kepada Penyedia Layanan sebagai suatu bagian dari ketentuan Layanan. Walaupun informasi pribadi anda secara otomatis akan dihapus dari perangkat bergerak milik Penyedia Layanan setelah anda menggunakan Layanan, terdapat kemungkinan dimana Penyedia Layanan dapat menyimpan data anda di perangkat mereka dengan cara apapun. Kami tidak bertanggung jawab atas penyimpanan data dengan cara tersebut dan anda setuju untuk membela, memberikan ganti rugi dan membebaskan kami dan kami tidak akan bertanggung jawab atas segala penyalahgunaan Informasi Pribadi anda oleh Penyedia Layanan setelah berakhirnya Layanan yang diberikan."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView97"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="4.	Kami tidak membagikan Informasi Pribadi anda kepada pihak manapun selain kepada Penyedia Layanan terkait dan perusahaan dan individu pihak ketiga yang disebutkan di bagian 4.4 di atas, tanpa persetujuan dari anda. Namun demikian, kami akan mengungkapkan Informasi Pribadi anda sepanjang dimintakan secara hukum, atau diperlukan untuk tunduk pada ketentuan perundang-undangan, peraturan-peraturan dan pemerintah, atau dalam hal terjadi sengketa, atau segala bentuk proses hukum antara anda dan kami, atau antara anda dan pengguna lain sehubungan dengan, atau terkait dengan Layanan, atau dalam keadaan darurat yang berkaitan dengan kesehatan dan/atau keselamatan anda."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView98"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="5.	Informasi Pribadi anda dapat dialihkan, disimpan, digunakan, dan diproses di suatu yurisdiksi selain Indonesia dimana server-server kami berada. Anda memahami dan setuju atas pengalihan Informasi Pribadi anda ke luar Indonesia."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView99"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="6.	Kami tidak menjual atau menyewakan Informasi Pribadi anda kepada pihak ketiga."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	
+	<TextView
+        android:id="@+id/textView100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="6.	Penahanan Informasi yang Kami Kumpulkan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView101"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="Kami akan menahan informasi anda hingga anda menghapus akun anda pada Aplikasi."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView102"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="7.	Keamanan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView103"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="Kami tidak menjamin keamanan database kami dan kami juga tidak menjamin bahwa data yang anda berikan tidak akan ditahan/terganggu ketika sedang dikirimkan kepada kami. Setiap pengiriman informasi oleh anda kepada kami merupakan risiko anda sendiri. Bagaimanapun efektifnya suatu teknologi, tidak ada sistem keamanan yang tidak dapat ditembus."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView104"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="8.	Perubahan atas Kebijakan Privasi ini"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView105"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="Kami dapat mengubah Kebijakan Privasi ini untuk mencerminkan perubahan dalam kegiatan kami. Jika kami mengubah Kebijakan Privasi ini, kami akan memberitahu anda melalui email atau dengan cara pemberitahuan di Situs web 1 hari sebelum perubahan berlaku. Kami menghimbau anda untuk meninjau halaman ini secara berkala untuk mengetahui informasi terbaru tentang bagaimana ketentuan Kebijakan Privasi ini kami berlakukan."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView106"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="9.	Lain-lain"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+
+	
+	
+	<TextView
+        android:id="@+id/textView107"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="1.	Bahasa. Kebijakan Privasi ini dibuat dalam bahasa Indonesia."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView108"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="2.	Hukum yang mengatur dan yurisdiksi. Kebijakan Privasi ini diatur oleh dan untuk ditafsirkan dalam hukum Negara Republik Indonesia."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	
+	<TextView
+        android:id="@+id/textView109"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="10.	Pengakuan dan Persetujuan"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+
+	<TextView
+        android:id="@+id/textView110"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="1.	Dengan menggunakan Aplikasi, anda mengakui bahwa anda telah membaca dan memahami Kebijakan Privasi ini dan Ketentuan Penggunaan dan setuju dan sepakat terhadap penggunaan, praktek, pemrosesan dan pengalihan informasi pribadi anda oleh kami sebagaimana dinyatakan di dalam Kebijakan Privasi ini."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+	<TextView
+        android:id="@+id/textView111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="2.	Anda juga menyatakan bahwa anda memiliki hak untuk membagikan seluruh informasi yang telah anda berikan kepada kami dan untuk memberikan hak kepada kami untuk menggunakan dan membagikan informasi tersebut kepada Penyedia Layanan."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	
+	<TextView
+        android:id="@+id/textView112"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="11.	Berhenti menerima e-mail"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView113"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="Kami memiliki kebijakan untuk memilih masuk/keluar dari database. Jika Anda ingin berhenti menerima email dari kami, silahkan klik link unsubscribe yang disertakan pada masing-masing e-mail."
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView114"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:text="12.	Cara untuk Menghubungi Kami"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+	
+	<TextView
+        android:id="@+id/textView115"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp"
+        android:text="Jika Anda memiliki pertanyaan lebih lanjut tentang privasi dan keamanan informasi Anda dan ingin memperbarui atau menghapus data Anda maka silakan hubungi kami di: email atau telepon ke: 0812 7327 7305 GOOD-JEK Babel"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </TextView>
+    
+
+	
+	</LinearLayout>
+
+</ScrollView>

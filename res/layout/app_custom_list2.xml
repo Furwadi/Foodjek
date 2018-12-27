@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+         >
+       
+       <ImageView android:layout_width="64dp"
+           	android:id="@+id/gambardriver"
+               android:layout_height="64dp"
+               android:src="@drawable/ic_myantar"
+               android:contentDescription="@string/logo"
+          
+        />
+         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+      <TextView 
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application Title"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+      
+  
+     <TextView
+         android:id="@+id/textViewHari"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:visibility="gone"
+         android:text="Date" />
+      
+     <TextView
+         android:id="@+id/textViewTanggal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Date" />
+     
+     <TextView
+         android:id="@+id/dlTxt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Content" />
+     
+        <TextView
+         android:id="@+id/dlId"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:visibility="gone"
+         android:text="Content" />
+        
+       <TextView
+         android:id="@+id/dlLatitude"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:visibility="gone"
+         android:text="Content" />
+       
+       <TextView
+         android:id="@+id/dlLongitude"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:visibility="gone"
+         android:text="Content" />
+        
+    </LinearLayout>
+     
+     
+    </LinearLayout>
+
+
+
+    
+    
+</LinearLayout>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spin1">
+        <item>Jumlah</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="app_name">Food-Jek</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="title_activity_menu">Daftar Menu</string>
+    <string name="title_activity_progress">Progress</string>
+    <string name="title_activity_process">Sedang Proses</string>
+    <string name="title_activity_complete">Selesai</string>
+    <string name="title_activity_food">Good-Pick</string>
+    <string name="title_activity_mart">Food-Jek</string>
+    <string name="title_activity_ride">Good-Jek</string>
+    <string name="logo">Logo</string>
+    <string name="title_activity_tentang">Tentang</string>
+    <string name="title_activity_bantuan">Bantuan</string>
+    <string name="title_activity_mapawal">Lokasi Awal</string>
+    <string name="title_activity_maptujuan">Lokasi Tujuan</string>
+    <string name="title_activity_martawal">Lokasi Awal</string>
+    <string name="title_activity_marttujuan">Lokasi Tujuan</string>
+    <string name="title_activity_ridetawal">Lokasi Awal</string>
+    <string name="title_activity_ridetujuan">Lokasi Tujuan</string>
+    <string name="title_activity_register">Daftar di Food-Jek</string>
+    <string name="title_activity_logon">Masuk</string>
+    <string name="title_activity_password">Lupa Password</string>
+    <string name="title_activity_startup">Food-Jek</string>
+    <string name="title_activity_item">Daftar Menu</string>
+    <string name="title_activity_pemesanan">Pesan Menu</string>
+    <string name="title_activity_map_peta">MapPeta</string>
+    <string name="title_activity_saran">Saran</string>
+    <string name="title_activity_custom_dialog_class">CustomDialogClass</string>
+
+</resources>

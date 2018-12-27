@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout 
+    android:padding="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:padding="10dp"
+        android:orientation="horizontal" >
+
+   		 
+   		 <TextView
+         android:id="@+id/jaraktempuh"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Jarak : "
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+   		 
+   		 <TextView
+         android:id="@+id/hasiltempuh"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+   		 
+   		 <TextView
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=" Km"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+   		 
+   		 <TextView
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Biaya : "
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+   		 <TextView
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Rp. "
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+           		 
+   		 <TextView
+         android:id="@+id/biaya"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+   		 
+
+    </LinearLayout>
+
+
+    
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" > 
+        
+
+               
+      
+         
+        <EditText 
+            android:id="@+id/lokasiawal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:layout_marginRight="50dp"
+            android:focusableInTouchMode="false" 
+      		android:editable="false"
+      		android:background="@drawable/rounded_edittext"
+      		android:padding="10dp"
+      		android:drawableLeft="@drawable/ic_email32"
+            android:hint="Lokasi Awal"
+            />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" > 
+        
+         
+        <EditText 
+            android:id="@+id/detlokawal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rounded_edittext"
+      		android:padding="10dp"
+      		android:drawableLeft="@drawable/ic_email32"
+            android:hint="Keterangan Awal"
+            />
+        </LinearLayout>
+        
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" > 
+        
+   
+    <EditText 
+            android:id="@+id/lokasitujuan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:layout_marginRight="50dp"
+            android:focusableInTouchMode="false" 
+           	android:background="@drawable/rounded_edittext"
+      		android:padding="10dp"
+      		android:drawableLeft="@drawable/ic_email32"
+      		android:editable="false"
+            android:hint="Lokasi Tujuan"
+            />
+    
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" > 
+        
+         
+        <EditText 
+            android:id="@+id/detlokakhir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:layout_marginRight="50dp"
+       
+            android:background="@drawable/rounded_edittext"
+      		android:padding="10dp"
+      		android:drawableLeft="@drawable/ic_email32"
+            android:hint="Keterangan Tujuan"
+            />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" > 
+        
+         
+        <EditText 
+            android:id="@+id/detketkirim"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:layout_marginRight="50dp"
+ 
+            android:background="@drawable/rounded_edittext"
+      		android:padding="10dp"
+      		android:drawableLeft="@drawable/ic_email32"
+            android:hint="Keterangan Pengiriman"
+            />
+        </LinearLayout>
+    
+
+    
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+         <TextView
+         android:id="@+id/koordinatawal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Koordinat Awal"
+         android:visibility="gone"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+   		 
+   		 <TextView
+         android:id="@+id/koordinattujuan"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Koordinat Tujuan"
+         android:visibility="gone"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+   		 
+
+        
+    </LinearLayout>
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+   		 
+   		 <TextView
+         android:id="@+id/koordinatawal1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Koordinat Awal"
+         android:visibility="gone"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+   		 
+   		 <TextView
+         android:id="@+id/koordinattujuan2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Koordinat Tujuan"
+         android:visibility="gone"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+   		 
+   		 <TextView
+         android:id="@+id/distance"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Koordinat Awal"
+         android:visibility="gone"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    </LinearLayout>
+    
+          
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+         >
+        
+     
+           
+            
+   		<Button
+			android:id="@+id/buttonProses"
+			android:text="Proses"
+			android:textSize="30sp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/buttonshape"
+			android:shadowColor="#ff00ffff"
+			android:gravity="center"
+		/>
+   		
+
+     
+    </LinearLayout>
+    
+        
+
+    
+</LinearLayout>
+</ScrollView>
